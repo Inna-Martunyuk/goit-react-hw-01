@@ -1,0 +1,33 @@
+.headTable {
+ background-color: rgb(61, 59, 59);
+
+}
+.table {
+  margin: 50px auto;
+  border-collapse: collapse;
+  width: 50%;
+  
+}
+td, th {
+border: 1px solid black;
+padding: 5px;
+text-align: center;
+}
+.title {
+color: white;
+font-size: 22px;
+letter-spacing: normal;
+
+}
+.type {
+font-size: 18px;
+letter-spacing: normal;
+color: black;
+}
+.row:nth-child(even) {
+  background-color: #9a9898; 
+}
+
+.row:nth-child(odd) {
+  background-color: #ffffff; 
+}
