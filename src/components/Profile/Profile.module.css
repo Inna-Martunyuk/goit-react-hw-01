@@ -1,0 +1,46 @@
+.container {
+  padding: 12px 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  width: 350px;
+  margin: auto;
+}
+.section {
+  text-align: center;
+}
+.images {
+  border-radius: 75%;
+  background-color: cadetblue;
+}
+.textName {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-bottom: 4px;
+}
+.text {
+  font-size: 24px;
+  font-weight: lighter;
+  color: gray;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border-top: 2px solid black;
+
+}
+.item {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 4px;
+}
+.stats {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+ 
+}
